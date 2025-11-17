@@ -20,7 +20,7 @@ const App = () => {
       <div className="max-w-lg w-full">
         <TodoForms addTodos={addTodos} />
       </div>
-      <div className="max-w-7xl w-full grid grid-cols-4 gap-6">
+      <div className="max-w-7xl w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {todos.map((item, i) => (
           <TodoItems deleteTodos={deleteTodos} todo={item} key={i} idnya = {i+1}/>
         ))}
