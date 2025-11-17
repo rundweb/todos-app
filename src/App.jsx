@@ -27,7 +27,7 @@ const App = () => {
 
         {todos.length == 0 && (
           <p className="col-span-4 text-center p-6 text-slate-500 font-medium text-lg">
-            Todos Not Pounds
+            Data does not exist
           </p>
         )}
       </div>
